@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply font-sans text-primary m-0;
+  @apply font-sans text-primary m-0 bg-secondary;
 }
 
 h1, h2, h3, p {
@@ -23,5 +23,5 @@ img {
 }
 
 .subtitle {
-  @apply text-8xl uppercase leading-none break-words max-w-[4ch] text-gray-300;
+  @apply text-8xl uppercase leading-none break-words max-w-[4ch] text-customGray-300;
 }

@@ -1,16 +1,15 @@
 import Header from "../components/Header/Header";
-// import Introduction from "../components/Introduction/Introduction";
-// import Experience from "../components/Experience/Experience";
-// import Education from "../components/Education/Education";
 import Footer from "../components/Footer/Footer";
+import Experience from "@/components/Experience/Experience";
+import Introduction from "@/components/Introduction/Introduction";
 
 export default function Home() {
   return (
-    <main className="bg-primary text-lightText min-h-screen">
+    <main className="bg-lightText text-primary min-h-screen">
       <Header />
-      {/* <Introduction />
+      <Introduction />
       <Experience />
-      <Education /> */}
+      {/* <Education /> */}
       <Footer />
     </main>
   );
