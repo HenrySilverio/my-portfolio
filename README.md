@@ -13,7 +13,7 @@ This is a modern and responsive portfolio developed with **Next.js** and **Tailw
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="TailwindCSS" width="60" height="60"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="60" height="60"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/eslint/eslint-original.svg" alt="ESLint" width="60" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prettier/prettier-plain.svg" alt="Prettier" width="60" height="60"/>
+  <img src="./public/prettier-svgrepo-com.svg" alt="Prettier" width="60" height="60"/>
 </p>
 
 - **Next.js** - React framework for fast and scalable applications.
