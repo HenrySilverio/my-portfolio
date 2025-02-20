@@ -36,7 +36,7 @@ const translations = {
                 ],
             },
             {
-                year: "05/2022 - 05/2022",
+                year: "05/2022 - 06/2022",
                 company: "ASC Brazil",
                 role: "Frontend Engineer",
                 description:
@@ -104,3 +104,4 @@ const translations = {
 };
 
 export default translations;
+

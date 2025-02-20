@@ -17,7 +17,7 @@ export default function Footer() {
   const t = translations[language];
 
   return (
-    <footer className="bg-black text-white py-16">
+    <footer id="contact" className="bg-black text-white py-16">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
         <p className="text-xl text-gray-300">{t.contactMessage}</p>
         <ul className="space-y-4">

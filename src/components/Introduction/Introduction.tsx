@@ -10,19 +10,17 @@ export default function Introduction() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-16 items-center">
       <Image
-        src="/profile.png"
+        src="/perfil.png"
         alt="Henrique"
-        width={250}
-        height={250}
+        width={350}
+        height={350}
         className="rounded-lg shadow-lg rotate-3"
       />
-      <div>
+      <div className="mt-96">
         <h1 className="text-5xl font-bold leading-tight relative">
           {t.role}
-          <span className="block w-32 h-6 bg-green-500 absolute top-[-10px] left-[-10px] z-[-1]"></span>
         </h1>
-        <p className="mt-4 text-lg text-gray-500">{t.location}</p>
-
+        <p className="mt-4 text-lg font-bold text-gray-500">{t.location}</p>
       </div>
     </section>
   );

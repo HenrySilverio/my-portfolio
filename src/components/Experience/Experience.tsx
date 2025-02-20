@@ -16,7 +16,7 @@ export default function Experience() {
         </div>
 
         <div>
-          <div className="mb-10 text-darkText">
+          <div className="mb-10 text-2xl text-primary">
             <ReactMarkdown>{t.description}</ReactMarkdown>
           </div>
 
@@ -24,24 +24,24 @@ export default function Experience() {
             {t.jobs.map((job, index) => (
               <div
                 key={index}
-                className="relative bg-[#f5f5f5] p-5 rounded shadow-lg grid grid-cols-[80px_1fr] gap-4 
-                  before:content-[''] before:block before:w-[4px] before:h-[20px] 
+                className="relative bg-[#f5f5f5] p-5 rounded shadow-lg grid grid-cols-[80px_2fr] gap-4 
+                  before:content-[''] before:block before:w-[4px] before:h-[60px] 
                   before:bg-gradient-to-b before:from-[#b6f829] before:to-[#67dd0a] 
-                  before:absolute before:top-[20px] before:left-[-4px]"
+                  before:absolute before:top-[30px] before:left-[-4px]"
               >
-                <span className="absolute top-[22px] left-[-100px] w-[80px] text-right text-[#525252] text-sm hidden md:block">
+                <span className="absolute top-[22px] left-[-100px] w-[80px] text-right text-[#050505] text-sm hidden md:block">
                   {job.year}
                 </span>
 
-                <h3 className="col-span-2 text-lg font-bold leading-[1.1] text-black">
+                <h3 className="col-span-2 text-2xl font-bold leading-[1.1] text-black">
                   {job.company}
                 </h3>
 
-                <span className="col-span-2 text-gray-600 text-sm font-semibold">
+                <span className="col-span-2 text-gray-600 text-xl text-red-800 font-semibold">
                   {job.role}
                 </span>
 
-                <p className="col-span-2 text-[1.3rem] leading-[1.33] max-w-[50ch] mb-6 text-[#525252]">
+                <p className="col-span-2 text-[1.3rem] leading-[1.33] max-w-[50ch] mb-6 text-[#000000]">
                   {job.description}
                 </p>
 
@@ -49,7 +49,7 @@ export default function Experience() {
                   {job.skills.map((skill, idx) => (
                     <li
                       key={idx}
-                      className="text-sm leading-[1.4] rounded bg-white py-[5px] px-[10px] shadow border border-gray-300"
+                      className="text-2sm leading-[1.4] rounded bg-customGray-200 py-[5px] px-[10px] border-gray-300"
                     >
                       {skill}
                     </li>

@@ -13,9 +13,9 @@ export default {
       },
       colors: {
         primary: "#141414",
-        secondary: "#f5f5f5", 
+        secondary: "#FAF9F6", 
         darkText: "#525252",
-        lightText: "#ffffff",
+        lightText: "#e3e3e3",
         customGray: {
           DEFAULT: "#7d7c7c",
           100: "#e0e0e0",
