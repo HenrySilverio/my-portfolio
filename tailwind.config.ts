@@ -12,10 +12,15 @@ export default {
         sans: ["Fira Sans", "Arial", "sans-serif"],
       },
       colors: {
-        primary: "#141414",
-        secondary: "#FAF9F6", 
-        darkText: "#525252",
-        lightText: "#e3e3e3",
+        background: "#0a0a0a", // Fundo principal (quase preto)
+        primary: "#141414", // Preto mais suave para seções
+        secondary: "#FAF9F6", // Branco suave para contraste
+        accent: "#4F46E5", // Azul neon (pode ajustar a intensidade)
+        glow: "#9333ea", // Roxo neon para efeitos de brilho
+        darkText: "#A1A1AA", // Cinza claro para textos
+        lightText: "#E3E3E3", // Branco para títulos e destaques
+        gradientStart: "#1E1E2E", // Azul escuro para gradientes
+        gradientEnd: "#15162C", // Azul mais escuro no fim
         customGray: {
           DEFAULT: "#7d7c7c",
           100: "#e0e0e0",
